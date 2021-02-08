@@ -27,7 +27,7 @@ apiSecret | 秘钥
 
 完整请求示例：
 ```
-http://127.0.0.1:8080/sign?body={"Data":"test","Remark":"test"}&nonce=100&timeStamp=1608626661&apiSecret=482e4610af93b60a113a8ecc61a500eaf054ee6df030ac2ece669acbe58ec28e
+http://127.0.0.1:8080/sign?body={"Data":"test","Remark":"test"}&nonce=100&timeStamp=1608626661&apiSecret=apiSecret*********
 ```
 响应JSON示例：
 
