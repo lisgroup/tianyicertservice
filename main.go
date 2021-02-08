@@ -53,7 +53,7 @@ func main() {
 	r.GET("/", func(c *gin.Context) {
 		c.String(200, "hello")
 	})
-	_ = r.Run(":9898") // listen and serve on 0.0.0.0:8080
+	_ = r.Run(":8080") // listen and serve on 0.0.0.0:8080
 }
 
 // sign 签名
